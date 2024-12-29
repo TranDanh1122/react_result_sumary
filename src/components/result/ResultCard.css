@@ -1,0 +1,118 @@
+.card {
+    width: 100%;
+    height: max-content;
+    max-width: 736px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.card__info {
+    background-image: linear-gradient(to bottom, var(--light-slate-blue-background) 0%, var(--light-royal-blue-background) 100%);
+    border-radius: 1rem;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 2.5rem 3.5rem;
+}
+
+.card__subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--light-lavender);
+}
+
+.card__score {
+    background-image: linear-gradient(to bottom, var(--violet-blue-circle) 0%, var(--persian-blue-circle) 100%);
+    border-radius: 50%;
+    padding: 3rem;
+    border-radius: 50%;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+
+.card__score h1 {
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    color: white;
+}
+
+.card__score span {
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: var(--light-lavender);
+}
+
+.card__sum {
+    padding: 1.5rem;
+    width: 50%;
+}
+
+.card__sum h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--dark-gray-blue);
+    margin-bottom: 2.75rem;
+}
+
+.card__review {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card_desc {
+    color: var(--light-lavender);
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.summary {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.card__continue {
+    font-size: 1.125rem;
+    font-weight: bold;
+    padding: 1rem 0;
+    width: 100%;
+    color: white;
+    background-color: var(--dark-gray-blue);
+    border-radius: 128px;
+    margin-top: 2.5rem;
+    cursor: pointer;
+}
+
+.card__continue:hover {
+    background-image: linear-gradient(to bottom, var(--light-slate-blue-background) 0%, var(--light-royal-blue-background) 100%);
+}
+
+@media (max-width:767px) {
+    #root {
+        display: block;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .card__info {
+        border-top-left-radius: unset;
+        border-top-right-radius: unset;
+        width: 100%;
+    }
+
+    .card__sum {
+        width: 100%;
+    }
+}

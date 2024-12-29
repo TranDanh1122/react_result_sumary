@@ -1,0 +1,61 @@
+.summary__item {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 0.75rem;
+}
+
+.summary__item i {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.summary__core {
+    color: var(--dark-gray-blue);
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.summary__core span {
+    color: hsla(224, 30%, 27%, 0.5);
+}
+
+.reaction {
+    background-color: rgba(255, 85, 85, 0.05);
+    color: rgb(255, 85, 85)
+}
+
+.reaction i {
+    background-color: rgb(255, 85, 85)
+}
+
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.05);
+    color: var(--orangey-yellow)
+}
+
+.memory i {
+    background-color: var(--orangey-yellow)
+}
+
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.05);
+    color: var(--green-teal)
+}
+
+.verbal i {
+    background-color: var(--green-teal)
+}
+
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.05);
+    color: var(--cobalt-blue)
+}
+
+.visual i {
+    background-color: var(--cobalt-blue)
+}
