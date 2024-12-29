@@ -5,7 +5,7 @@ import SumaryItem from "./SumaryItem";
 export default function ResultCard() {
     const [data, setData] = useState(null)
     useEffect(() => {
-        fetch("./data.json").then(response => response.json()).then(data => setData(data)).catch(error => console.error("Error when loading data", error));
+        fetch("/react_result_sumary/data.json").then(response => response.json()).then(data => setData(data)).catch(error => console.error("Error when loading data", error));
     }, [])
 
     if (!data) return <p>Loading...</p>;

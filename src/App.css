@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: "Hanken Grotesk";
-  src: url(../assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+  src: url(/react_result_sumary/fonts/HankenGrotesk-VariableFont_wght.ttf);
 }
 
 * {
